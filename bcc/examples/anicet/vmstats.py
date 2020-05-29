@@ -109,12 +109,7 @@ int do_count(struct pt_regs *ctx) {
     return 0;
 }
 """)
-#========cache stats=============>>
-# define BPF program
 
-#======cache stats===>
-
-#=======Cache stats====>
 if debug or args.ebpf:
     print(bpf_text)
     if args.ebpf:
@@ -172,7 +167,7 @@ while 1:
         print("%-8s " % strftime("%H:%M:%S"), end="")
     # print(" %8.0f %10.0f" %
     #     ( buff, cached))
-    printb(b"%-18.9f %-2s %-7s %8.2f %10.0f" % (ts, nb_write, nb_read, buff, cached))
+    print("%-18.9f %-2s %-7s %8.2f %10.0f" % (ts, nb_write, nb_read, buff, cached))
 
    # mpa = mbd = apcl = apd = total = misses = hits = cached = buff = 0
 
