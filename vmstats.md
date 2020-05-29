@@ -1,4 +1,4 @@
-# Vmstat permet de ressortir la charge du système, l'utilisation de la mémoire virtuelle en particulier. Voici les informations que ressort vmstats:
+## Vmstat permet de ressortir la charge du système, l'utilisation de la mémoire virtuelle en particulier. Voici les informations que ressort vmstats:
 
 * b: nombre de processus bloqués
 * r: nombre de processus dans la run queue
@@ -12,7 +12,22 @@
 * id : temps ou le processeur ne fais rien
 * wa : en attente de ressources
 
+* buff: memoire utilisée en buffer
+* cache : mémoire utilisée en cahe
+* bi : lecture sur les périphériques blocs (discs durs ) en bloc/s 
+* bo : ecriture sur les périphériques blocs (dd) ne bloc/s        
 
 ## DONE
+
+* buff: memoire utilisée en buffer
+* cache : mémoire utilisée en cahe
+* bi : lecture sur les périphériques blocs (discs durs ) en bloc/s 
+* bo : ecriture sur les périphériques blocs (dd) ne bloc/s   
+
+## DOING
+
+* r: nombre de processus dans la run queue
+
+
 
 
